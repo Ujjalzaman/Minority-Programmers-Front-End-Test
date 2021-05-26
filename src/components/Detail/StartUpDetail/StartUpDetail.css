@@ -1,8 +1,9 @@
 .detail{
-    height: 100vh;
+    height: 1500px;
     background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
     /* background: fixed; */
-    position: fixed;
+    /* position:fixed; */
     left:0;
     right:0;
+    bottom: 0;
 }

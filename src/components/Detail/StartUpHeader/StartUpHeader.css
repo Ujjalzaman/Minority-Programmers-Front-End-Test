@@ -1,6 +1,6 @@
 .startup-header{
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 45px;
     background: #fff;
     border-radius:20px 20px 0px 0px;
 }
@@ -12,6 +12,10 @@
 }
 .startup-header img{
     height: 35px;
+}
+.startup-head h4{
+    font-weight: 700;
+    padding-left: 5px;
 }
 .startup-center{
     padding: 5px;

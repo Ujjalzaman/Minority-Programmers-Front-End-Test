@@ -1,0 +1,64 @@
+.startup-aside{
+    background-color: white;
+    height: 1000px;
+}
+.startupe-aside-title h3{
+    padding: 10px 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+}
+.social{
+    padding: 15px 10px;
+    margin-top: 10px;
+}
+.startup-aside .social p{
+    line-height: 10px;
+}
+.startup-aside .website-link h3{
+    color:black;
+    font-size: 1.5em;
+
+}
+
+.social-link h3{
+    color: #003CD8;
+    font-size: 1.5em;
+}
+.startup-aside h2{
+    text-align: left;
+    font-weight: 650;
+}
+.startup-aside .startup-team{
+    padding: 20px;
+}
+.startup-team .team{
+    margin: 20px 0px;
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+}
+.team-desc{
+    line-height: 5px;
+    /* height: 60px; */
+}
+.team-desc h4{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.team-img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    margin-right:20px;
+}
+.startup-aside .tags p{
+    border: 1px solid gray;
+    color: black;
+    outline: none;
+    border-radius: 5px;
+    padding: 1px 8px;
+    margin: 10px 5px;
+    /* background-color: rgb(212, 212, 212); */
+}

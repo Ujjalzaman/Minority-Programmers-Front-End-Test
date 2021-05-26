@@ -5,7 +5,8 @@ import './StartUpHeader.css';
 const StartUpHeader = () => {
     return (
 
-            <div className="startup-header">
+            <div className="container">
+                <div className="startup-header">
                 <div className="d-flex d-flex justify-content-around align-items-center">
 
                     <div className="startup-head d-flex justify-content-around">
@@ -30,6 +31,7 @@ const StartUpHeader = () => {
                         <button className="header-button">Found StartUp</button>
                     </div>
                 </div>
+            </div>
             </div>
 
     );

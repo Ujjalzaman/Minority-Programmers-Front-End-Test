@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../../Shared/Navbar/Navbar';
+import StartUpBody from '../StartUpBody/StartUpBody';
 import StartUpHeader from '../StartUpHeader/StartUpHeader';
 import './StartUpDetail.css';
 const Detail = () => {
@@ -7,9 +8,9 @@ const Detail = () => {
         <div>
             <Navbar></Navbar>
             <div className="detail">
-                <div className="container">
-                    <StartUpHeader></StartUpHeader>
-                </div>
+                <StartUpHeader></StartUpHeader>
+                <StartUpBody></StartUpBody>
+           
             </div>
         </div>
     );
