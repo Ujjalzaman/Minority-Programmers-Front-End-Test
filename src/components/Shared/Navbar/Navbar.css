@@ -1,0 +1,13 @@
+nav img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.navbar-social{
+    margin-left: 60px;
+    padding: 10px;
+}
+.navbar-social-icon{
+    font-size: 1.5rem;
+    /* padding: 10px; */
+}

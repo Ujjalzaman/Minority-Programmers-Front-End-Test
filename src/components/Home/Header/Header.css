@@ -1,0 +1,43 @@
+.header{
+    background-image: url('../../../images//header-bg.png');
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header-desc{
+    position: absolute;
+    right: 13%;
+    text-align: center;
+    align-items: center;
+    /* align-items: flex-end; */
+}
+.header-desc h2{
+    line-height: 50px;
+    text-align: left;
+    font-size: 2.8em;
+    padding: 10px 0px;
+    /* margin: 10px; */
+    color:white;
+
+}
+.header-button{
+    position: static;
+    width: 187px;
+    height: 37px;
+    left: 64px;
+    top: 19.5px;
+    font-style: normal;
+    font-weight: bold;
+    outline: none;
+    border:none;
+    text-align: center;
+    color:white;
+    flex:none;
+    order:0;
+    flex-grow: 0;
+    margin: 0px 8px;
+   
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+    border-radius: 4px;
+}

@@ -1,0 +1,33 @@
+.startup-header{
+    padding: 10px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius:20px 20px 0px 0px;
+}
+.startup-header .arrow{
+    font-size: 2.5em;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.startup-header img{
+    height: 35px;
+}
+.startup-center{
+    padding: 5px;
+}
+.startup-center .startup-center-title{
+    font-size: 1em;
+    line-height: 5px;
+    text-align: center;
+    margin-right: 15px;
+    font-weight: 500;
+    /* font-weight: bold; */
+}
+.startup-center-parcent {
+    font-size: .8em;
+    font-weight: 400;
+}
+.startup-center .price h5{
+    font-weight: 700;
+}

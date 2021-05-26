@@ -1,0 +1,8 @@
+.magnoswaplist-load-btn button{
+    border: 1px solid white;
+    color:white;
+    outline: none;
+    background: none;
+    padding: 5px 40px;
+    font-weight: 700;
+}

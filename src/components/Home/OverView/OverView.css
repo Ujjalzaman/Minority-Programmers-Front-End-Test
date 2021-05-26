@@ -1,0 +1,23 @@
+.overview{
+    width: 100%;
+}
+.overview img{
+    width: 340px;
+    /* height: px; */
+
+}
+.overview-div{
+    position: relative;
+}
+.overview-button{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    color:white;
+    outline: none;
+    background: none;
+    padding: 5px 10px;
+    font-weight: 700;
+}
