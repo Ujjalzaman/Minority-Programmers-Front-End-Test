@@ -1,4 +1,15 @@
 .startup-main{
     background-color: white;
-    height: 800px;
+    height: 700px;
+}
+.startup-main-bottom{
+    
+    overflow: hidden;
+    margin-top: 20px;
+    /* width: 1224px; */
+    height: 260PX;
+    background-color: #fff;
+}
+.startup-main-bottom h3{
+    padding: 20px 0px;
 }

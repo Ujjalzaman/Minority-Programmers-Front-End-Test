@@ -8,9 +8,11 @@ const Detail = () => {
         <div>
             <Navbar></Navbar>
             <div className="detail">
-                <StartUpHeader></StartUpHeader>
-                <StartUpBody></StartUpBody>
-           
+                <div className="startup-detail-main">
+                    <StartUpHeader></StartUpHeader>
+                    <StartUpBody></StartUpBody>
+                </div>
+
             </div>
         </div>
     );
