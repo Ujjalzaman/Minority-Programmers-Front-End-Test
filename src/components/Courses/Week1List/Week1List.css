@@ -1,0 +1,35 @@
+.course-week-card-content{
+    position: relative;
+    margin-left: -450px;
+    display: flex;
+    justify-content: space-between;
+}
+.course-week-card-content img{
+    margin-right: 20px;
+    width:150px;
+    border-radius: 10px;
+}
+.course-week-card-content h2{
+    margin-top: 15px;
+}
+.course-week-card-btn{
+    border:none;
+    outline: none;
+    position: absolute;
+    right: 2%;
+    margin-top: -15px;
+    border-radius: 5px;
+    padding:1px 25px;
+    font-weight: 600;
+}
+.week-btn-green{
+    background-color: #00AA4F;
+}
+.week-btn-gray{
+    background-color: #FFFFFF;
+    color:black;
+}
+.week-btn-orange{
+    background-color: #FF655B;
+}
+

@@ -1,0 +1,12 @@
+.load-more-btn{
+    color: white;
+    border: 1px solid white;
+    background: none;
+    padding: 2px 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -150px;
+    border-radius: 5px;
+    outline: none;
+    
+}

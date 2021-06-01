@@ -1,0 +1,21 @@
+.module-hr-extra{
+    width:980px;
+    margin-left: -120px;
+    margin-top: 30px;
+}
+
+.course-week-head-title{
+    margin-left: -120px;
+    color:white;
+    padding:10px 0px;;
+}
+.course-week-head-title h1{
+    padding-bottom: 10px;
+}
+.course-week-head-progress p{
+    color:white;
+    margin:0 auto;
+    text-align: center;
+    margin-left: -100px;
+
+}

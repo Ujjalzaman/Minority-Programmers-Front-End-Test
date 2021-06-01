@@ -1,0 +1,19 @@
+.course-complete-card{
+    margin:0 auto;
+    width:300px;
+    height:500px;
+    /* background: black; */
+
+}
+.course-complete-btn{
+    outline: none;
+    border:none;
+    background: linear-gradient(90deg, #FF00B8 0%, #FF655B 50%, #FFC700 100%);
+    padding:8px 50px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: white;
+}

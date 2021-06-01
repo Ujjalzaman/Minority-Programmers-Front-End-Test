@@ -1,16 +1,17 @@
 import React from 'react';
-import { FaArrowAltCircleLeft,  FaRegArrowAltCircleLeft } from 'react-icons/fa';
+import { FaArrowAltCircleLeft, FaRegArrowAltCircleLeft } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import MangosImage from '../../../images/mangoswap.png';
 import './StartUpHeader.css';
 const StartUpHeader = () => {
     return (
 
-            <div className="container">
-                <div className="startup-header">
+        <div className="container">
+            <div className="startup-header">
                 <div className="d-flex d-flex justify-content-around align-items-center">
 
                     <div className="startup-head d-flex justify-content-around">
-                        <FaRegArrowAltCircleLeft className="arrow me-5" />
+                        <Link to="/"><FaRegArrowAltCircleLeft className="arrow me-5" /></Link>
                         <img src={MangosImage} alt="" />
                         <h4>Mangoswap</h4>
                     </div>
@@ -32,7 +33,7 @@ const StartUpHeader = () => {
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
 
     );
 };

@@ -1,0 +1,73 @@
+.my-course-list{
+    width: 1500px;
+    height: 500px;
+    overflow: hidden;
+}
+.coruse-list-card{
+    margin-left: 10px;
+    box-shadow: 5px 3px 10px 0px #02013b;
+    border:none;
+    outline: none;
+    width: 380px;
+    height: 280px;
+    background: linear-gradient(150deg, #4d4af7 2.98%, #151371 50.95%, #151371 50.95%, #09085f 100%);
+}
+.my-course-list .round{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:green;
+    margin-top: 6px;
+    margin-right: 15px;
+}
+.course-list-card-head{
+    background-color: #9CFF83;
+    border-radius: 5px;
+    padding: 0px 20px;
+    text-align: center;
+}
+.course-list-card-head p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.coruse-list-learn-div button{
+    border-radius: 20px;
+    font-weight: 750;
+}
+.coruse-list-intro {
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    padding-left: 35px;
+    text-align: left;
+    /* margin-bottom:-5px; */
+    line-height: 10px;
+}
+.my-course-list-card-bottom{
+    margin-top: 30px;
+    color:white;
+}
+.my-course-list-card-bottom-complete-parcent{
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 400;
+    color:white;
+}
+.my-course-list-modules {
+    margin-bottom: -10px;
+}
+
+.my-course-list-modules{
+    color:white;
+    text-align: end;
+    margin-right: 50px;
+    
+}
+.my-course-list-hr{
+    width: 280px;
+    height: 5px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #FFC700 2%, #FF655B 20.83%, #FF00B8 90%, #E0E0E0 50%);
+    margin: 10px 0px;
+    margin: 0 auto;
+} 

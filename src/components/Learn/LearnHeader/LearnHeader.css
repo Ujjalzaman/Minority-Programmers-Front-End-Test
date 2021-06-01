@@ -1,0 +1,33 @@
+.learn-header{
+    /* background-color: ; */
+    height: 400px;
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+
+}
+.elipse{
+    text-align: center;
+    border: 2px dotted white;
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    padding: 10px;
+
+}
+.learn-header img{
+    padding: 5px;
+    width: 290px;
+    height: 290px;
+}
+.learn-header-heading h1{
+    color:white;
+    font-weight: 700;
+    padding: 10px 0px;  
+}
+.learn-header-heading p{
+    color:white;
+    font-style: italic;
+    font-weight: 650;
+}
+.learn-header-heading span{
+    color:rgb(2, 2, 196);
+}

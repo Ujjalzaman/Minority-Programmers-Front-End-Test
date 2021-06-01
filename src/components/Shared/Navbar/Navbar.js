@@ -2,12 +2,13 @@ import React from 'react';
 import logo from '../../../images/logo.svg';
 import './Navbar.css';
 import { FaFacebook, FaInstagram, FaLinkedin, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <img src={logo} alt="" />
+                    <Link to="/" className="link-text"><img src={logo} alt="" /></Link>
                     {/* <a class="navbar-brand" href="#">Navbar</a> */}
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -38,7 +39,7 @@ const Navbar = () => {
                                 <a class="nav-link active" aria-current="page" href="#">Events</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Learn</a>
+                               <Link to="/learn" className="link-text"><a class="nav-link active" aria-current="page">Learn</a></Link> 
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Join</a>

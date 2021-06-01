@@ -1,0 +1,10 @@
+.learn{
+    position: relative;
+}
+.learn-body{
+    position: absolute;
+    left:0;
+    right: 0;
+    background-color: #151371;
+    height: 1150px;
+}

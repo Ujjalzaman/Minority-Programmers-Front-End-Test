@@ -1,0 +1,64 @@
+.activity-body{
+    /* background-color: #dfdfdf; */
+    height:1000px;
+    color:white;
+    background-color: #151371;
+
+}
+.activity-arrow{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.activity-left-arrow{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2.5em;
+    position: absolute;
+    left:0;
+    cursor: pointer;
+}
+.activity-right-arrow{
+    position: absolute;
+    right:0;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+.activity-button{
+    position: absolute;
+    top:20px;
+    right:20px;
+    background: none;
+    border:none;
+    outline:none;
+    color:white;
+    padding: 1px 30px;
+    border-radius: 8px;
+    border: 2px solid #FF655B;
+    text-align: right;
+
+}
+.btn-link{
+    text-decoration: none;
+    color:white;
+    /* background-color: none; */
+    /* font-style: normal; */
+}
+.clock-icon{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.activity-body-clickup{
+    position: relative;
+
+    padding:35px;
+    border-radius: 10px;
+    margin:0 auto;
+    width:900px;
+    border:1px solid white;
+    background: chartreuse;
+    background: linear-gradient(110.62deg, #ffffff40 6.39%, #ffffff00 53.34%); 
+    /* background:linear-gradient(110.62deg, #ffffff40 6.39%, #ffffff00 53.34%); */
+}
